@@ -1,0 +1,142 @@
+.form__modal {
+    display: flex;
+    flex-direction: column;
+    width: 31rem;
+    height: fit-content;
+    border-radius: 0.3rem;
+    padding: 2rem;
+    gap: 1rem;
+    background-color: rgba(var(--grey-6), 1);
+    border: 1px solid rgba(0, 0, 0, 0.233);
+}
+
+.form__modal__name {
+    font-weight: 600;
+}
+
+.form__modal__header {
+    display: flex;
+    max-width: inherit;
+    flex-direction: row;
+    justify-content: space-between; 
+}
+
+.form__modal__header > button {
+    border: none;
+    background-color: inherit;
+    color: rgba(var(--grey-3), 1);
+    cursor: pointer;
+}
+
+.form__input__name {
+    font-weight: 400;
+    font-size: 0.875rem;
+    padding: 0.5rem 0
+}
+
+.campo__titulo {
+    width: 99%;
+    max-height: 1rem;
+    background-color: rgba(var(--grey-4), 1);
+    border: 1px solid rgba(var(--grey-3), 0.2);
+}
+
+.campo__descricao {
+    width: 100%;
+    height: 5rem;
+    background-color: rgba(var(--grey-4), 1);
+    border: 1px solid rgba(var(--grey-3), 0.2);
+}
+
+textarea {
+    box-sizing: border-box; 
+    max-width: 100%; 
+    font-family: 'Inter', sans-serif;
+    padding: 0.5rem;
+}
+
+.form__modal > button {
+    width: 100%;
+}
+
+.status__checkbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    padding: 1rem 0;
+}
+
+.form__modal__body > span {
+    font-weight: 500;
+}
+
+.form__modal__body > select {
+    width: 100%;
+    padding: 0.5rem 0;
+    border-radius: 0.2rem;
+    background-color: rgba(var(--grey-4), 1);
+    border: 1px solid rgba(var(--grey-3), 0.2);
+}
+
+.form__modal__body > select + option {
+    width: 100%;
+    color: rgba(var(--grey-5), 1)
+}
+
+.btn__excluir {
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+}
+
+.btn__excluir > button {
+    font-size: .75rem;
+    font-weight: 500;
+}
+
+.excluir {
+    width: 25rem;
+    gap: 3rem;
+}
+
+.btn__editar {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.btn__editar > .btn--cinza-claro {
+    width: 40%
+}
+
+.btn__editar > .btn--disabled {
+    width: 55%
+}
+
+.fundo__preto {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(var(--grey-1), 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.form__modal {
+    animation: animacao .5s;
+}
+
+@keyframes animacao {
+    from {
+        opacity: 0;
+        transform: translate3d(0, -4.5rem, 0);
+    }
+
+    to {
+        opacity: 1;
+        transform: translate3d(0,0,0);
+    }
+}

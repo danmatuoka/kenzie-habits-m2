@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="src/css/reset.css">
+  <link rel="stylesheet" href="src/css/login.css">
+  <title>Kenzie Habit</title>
+</head>
+<body>
+  <main>
+    <section class="container">
+      <div class="box_info">
+        <div class="info">
+          <h1 class="tittle">Kenzie Habit</h1>
+          <p class="description">If you are going to use a passage of Lorem Ipsum</p>
+          <p class="description_2">you need to be sure there isn't anything</p>
+        </div>
+      </div>
+      <div class="box_login">
+        <form class="form">
+          <h1>Login</h1>
+          <div class="login">
+            <label class="label" for="email_usuario">Usuário</label>
+            <input required type="email" name="email_usuario" id="email_usuario" placeholder="E-mail">
+          </div>
+          <div class="senha">
+            <label class="label" for="password">Senha</label>
+            <input required type="password" name="password" id="password" placeholder="Digite sua senha">
+            <label class="invalid_label --none" for="password">Usuário ou senha inválidos!</label>
+          </div>         
+          <button type="submit" class="btn-entrar">Entrar</button>
+        </form>
+      </div>
+    </section>
+  </main>
+  <script type="module" src="src/scripts/login.js"></script>
+</body>
+</html>
+
+

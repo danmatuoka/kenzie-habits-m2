@@ -1,0 +1,88 @@
+.btn {
+    color: white;
+    border: none;
+    border-radius: 0.2rem;
+    width: fit-content;
+    height: 2.5rem;
+    padding: 0.75rem 3.125rem 0.75rem 3.125rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.25s;
+}
+
+.btn--sm:hover, .btn--sm:focus {
+    width: fit-content;
+    height: 2rem;
+    box-shadow: 0 0.5em 0.5em -0.4em black;
+    transform: translateY(-0.25em);
+}
+
+.btn--azul {
+    background-color: rgba(var(--marca-azul), 1);
+}
+
+.btn--azul:hover, .btn--azul:focus {
+    box-shadow: 0 0.5em 0.5em -0.4em black;
+    transform: translateY(-0.25em);
+}
+
+.btn--azul-claro {
+    background-color: rgba(var(--marca-azul-escuro), 1);
+}
+
+.btn--azul-claro:hover, .btn--azul-claro:focus {
+    box-shadow: 0 0.5em 0.5em -0.4em;
+    transform: translateY(-0.25em);
+}
+
+.btn--disabled {
+    background-color: rgba(var(--marca-azul-claro), 1);
+}
+
+.btn--disabled:hover, btn--disabled:focus {
+    cursor: not-allowed;
+    box-shadow: 0 0.5em 0.5em -0.4em black;
+    transform: translateY(-0.25em);
+}
+
+.btn--cinza-claro {
+    background-color: rgba(var(--grey-4), 1);
+    color: black
+}
+
+.btn--cinza-claro:hover, .btn--cinza-claro:focus {
+    color: black;
+    box-shadow: 0 0.5em 0.5em -0.4em black;
+    transform: translateY(-0.25em);
+}
+
+.btn--cinza-escuro {
+    background-color: rgba(var(--grey-3) 1);
+} 
+
+.btn--cinza-escuro:hover, btn--cinza-escuro:focus {
+    color: black;
+    box-shadow: 0 0.5em 0.5em -0.4em black;
+    transform: translateY(-0.25em);
+}
+
+.btn--vermelho {
+    background-color: rgba(var(--red--1), 1);
+}
+
+.btn--vermelho:hover, .btn--vermelho:focus {
+    box-shadow: 0 0.5em 0.5em -0.4em black;
+    transform: translateY(-0.25em);
+}
+
+.btn--vermelho-escuro {
+    background-color: rgba(var(--red--1), 1);
+}
+
+.btn--vermelho-escuro:hover, .btn--vermelho-escuro:focus {
+    box-shadow: 0 0.5em 0.5em -0.4em black;
+    transform: translateY(-0.25em);
+}

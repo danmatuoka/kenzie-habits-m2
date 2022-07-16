@@ -1,0 +1,22 @@
+:root {
+    /* CORES DA MARCA */
+
+    --marca-azul: 65, 90, 243;
+    --marca-azul-escuro: 65, 80, 210;
+    --marca-azul-claro: 215, 228, 251;
+
+    --grey-1: 33, 37, 41;
+    --grey-2: 52, 58, 64;
+    --grey-3: 173, 181, 189;
+    --grey-4: 233, 236, 239;
+    --grey-5: 241, 243, 245;
+    --grey-6: 255, 255, 255;
+
+    --green-sucess: 86, 207, 142;
+    --red--1: 230, 68, 69;
+    --red--2: 240, 56, 57;
+
+    --black: 0,0,0;
+
+    --font--1:(font-family: 'Inter', sans-serif;)
+}
