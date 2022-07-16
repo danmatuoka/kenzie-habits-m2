@@ -2,12 +2,12 @@ Projeto para conclusão do modulo 2 do curso Full Stack da Kenzie Academy Brasil
 
 Planejamento feito com metodologia agil, como ferramente usamos o trello.
 
-Projeto em equipe:
-Tech Leader - Daniel Matuoka
-Scrum Master - Dara Gomes
-Dev - Amanda Rodrigues
-Dev - Arthur Ribeiro
-Dev - Willian Oliveira
+Projeto em equipe:<br>
+Tech Leader - Daniel Matuoka <br>
+Scrum Master - Dara Gomes <br>
+Dev - Amanda Rodrigues <br>
+Dev - Arthur Ribeiro <br>
+Dev - Willian Oliveira <br>
 
 ## Principais conceitos
 
